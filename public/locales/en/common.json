@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "bookAppt": "Get Medical Consultation Now",
+    "bookApptNow": "Get Medical Consultation Now",
+    "brand": "HealthCare+"
+  },
+  "hero": {
+    "acceptingNew": "Now Accepting New Patients",
+    "title1": "Compassionate Care.",
+    "title2": "Modern Facilities.",
+    "title3": "Trusted Doctors.",
+    "subtitle1": "Experience healthcare designed for your comfort.",
+    "subtitle2": "Book your appointment in 3 clicks.",
+    "scheduleNow": "Get Medical Consultation Now",
+    "meetTeam": "Meet Our Team",
+    "stats": {
+      "exp": "15+",
+      "expSub": "Years Experience",
+      "docs": "50+",
+      "docsSub": "Expert Doctors",
+      "rate": "98%",
+      "rateSub": "Satisfaction Rate"
+    },
+    "slides": {
+      "reception": "Welcoming Reception",
+      "exams": "Modern Examination Rooms",
+      "team": "Expert Medical Team"
+    },
+    "badges": {
+      "rating": "4.9 Patient Rating",
+      "specialists": "Verified Specialists",
+      "accredited": "Accredited Facility"
+    },
+    "waiting": {
+      "title": "Current Waiting Time",
+      "time": "< 15 Min"
+    }
+  },
+  "about": {
+    "title1": "Expert Care",
+    "title2": "For You",
+    "subtitle": "Meet our lead physician dedicated to providing exceptional healthcare",
+    "drName": "Dr. Ahmed Hassan",
+    "drTitle": "MD, FACP",
+    "drRole": "Chief Medical Officer",
+    "board": "Board Certified Physician",
+    "boardSub": "Internal Medicine & Family Practice",
+    "exp": "15+ Years Experience",
+    "expSub": "Over 10,000 patients treated successfully",
+    "desc": "Dr. Hassan is dedicated to providing comprehensive, compassionate care. With expertise in preventive medicine and chronic disease management, he ensures every patient receives personalized attention and the highest quality treatment.",
+    "tags": {
+      "cardio": "Cardiology",
+      "internal": "Internal Medicine",
+      "preventive": "Preventive Care"
+    },
+    "rating": "5.0 Rating",
+    "credentials": "15+ Years specialized expertise, thousands of successful treatments. Board-certified with highest authoritative credentials in the field."
+  },
+  "services": {
+    "title1": "Our Medical",
+    "title2": "Services",
+    "subtitle": "Comprehensive healthcare solutions tailored to meet your unique needs",
+    "items": {
+      "general": {
+        "title": "General Checkup",
+        "desc": "Comprehensive health examinations and preventive care screenings for all ages."
+      },
+      "surgery": {
+        "title": "Specialized Surgery",
+        "desc": "Advanced surgical procedures performed by expert surgeons with state-of-the-art equipment."
+      },
+      "cardio": {
+        "title": "Cardiology",
+        "desc": "Expert heart care and cardiovascular disease prevention, diagnosis, and treatment."
+      },
+      "neuro": {
+        "title": "Neurology",
+        "desc": "Specialized care for neurological conditions and brain health management."
+      },
+      "ophthal": {
+        "title": "Ophthalmology",
+        "desc": "Complete eye care services including exams, treatments, and corrective procedures."
+      },
+      "peds": {
+        "title": "Pediatrics",
+        "desc": "Dedicated healthcare for infants, children, and adolescents with compassionate care."
+      }
+    },
+    "learnMore": "Learn More",
+    "bookBtn": "Get Medical Consultation Now"
+  },
+  "testimonials": {
+    "title1": "What Our",
+    "title2": "Patients Say",
+    "subtitle": "Real experiences from our valued patients",
+    "join": "Join 10,000+ Happy Patients",
+    "rated": "Rated 4.9/5 on average",
+    "roles": {
+      "exec": "Business Executive",
+      "teacher": "Teacher",
+      "engineer": "Software Engineer"
+    },
+    "reviews": {
+      "1": "The level of care and attention I received was exceptional. Dr. Hassan took the time to understand my concerns and provided a comprehensive treatment plan. Highly recommend!",
+      "2": "From booking to consultation, everything was seamless. The staff is incredibly professional and caring. I've never felt more confident about my healthcare decisions.",
+      "3": "Outstanding medical facility with cutting-edge technology. The doctors are knowledgeable and genuinely care about patient outcomes. Five stars all the way!"
+    }
+  },
+  "contact": {
+    "title1": "Find",
+    "title2": "Us",
+    "subtitle": "Visit our modern facility or get in touch with us",
+    "infoTitle": "Contact Information",
+    "addressTitle": "Address",
+    "addressVal1": "EL Mohandseen",
+    "addressVal2": "Cairo, Egypt",
+    "phone": "Phone",
+    "email": "Email",
+    "hoursTitle": "Office Hours",
+    "hours1": "Monday - Friday: 8:00 AM - 8:00 PM",
+    "hours2": "Saturday: 9:00 AM - 5:00 PM",
+    "hours3": "Sunday: 10:00 AM - 4:00 PM",
+    "emergencyTitle": "Emergency Services",
+    "emergencyDesc": "For medical emergencies, please call",
+    "emergencyDesc2": "or visit your nearest emergency room.",
+    "mapTitle": "Interactive Map",
+    "mapDesc": "Connect your Google Maps API to display an interactive location map"
+  },
+  "footer": {
+    "desc": "Providing exceptional healthcare services with compassion and expertise since 2008.",
+    "quickLinks": "Quick Links",
+    "servicesTitle": "Our Services",
+    "contactTitle": "Contact Us",
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "hipaa": "HIPAA Compliance"
+  },
+  "booking": {
+    "backHome": "Back to Home",
+    "title1": "Book Your",
+    "title2": "Appointment",
+    "subtitle": "Schedule your visit in just a few simple steps",
+    "step1": "Select Service",
+    "step2": "Select Date",
+    "today": "Today",
+    "step3": "Select Time",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "step4": "Your Information",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "John Doe",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (234) 567-8900",
+    "summary": "Booking Summary",
+    "service": "Service",
+    "notSelected": "Not selected",
+    "date": "Date",
+    "time": "Time",
+    "patientName": "Patient Name",
+    "notProvided": "Not provided",
+    "confirmWhatsapp": "Confirm via WhatsApp",
+    "redirectText": "You'll be redirected to WhatsApp to confirm your booking",
+    "fillAll": "Please fill in all fields",
+    "waMessage": "Hi! I would like to book an appointment:\n\nName: {{name}}\nPhone: {{phone}}\nService: {{service}}\nDate: {{date}}\nTime: {{time}}"
+  },
+  "seo": {
+    "homeTitle": "Top Specialized Clinic in Cairo | Book Appointment Online Instantly",
+    "homeDesc": "Experience the best medical care with expert consultants. Zero wait time, modern sterilized tools. Book your medical consultation now.",
+    "homeKeywords": "book doctor appointment, specialized clinic, best doctor in Egypt, clinic schedule",
+    "bookingTitle": "Book Appointment Now | Zero Wait Time",
+    "bookingDesc": "Reserve your slot easily in our modern clinic."
+  },
+  "whyUs": {
+    "title1": "Why Choose",
+    "title2": "Our Clinic",
+    "subtitle": "We prioritize your health and time",
+    "zeroWait": "Zero Wait Time",
+    "zeroWaitDesc": "Your time is valuable. We guarantee immediate care upon arrival.",
+    "modernTools": "Modern Sterilized Tools",
+    "modernToolsDesc": "State-of-the-art medical equipment maintaining the highest safety standards.",
+    "expertConsultants": "Experienced Consultants",
+    "expertConsultantsDesc": "A dedicated team of the finest doctors in the country."
+  },
+  "faq": {
+    "title1": "Frequently Asked",
+    "title2": "Questions",
+    "subtitle": "Everything you need to know about our services",
+    "q1": "How long is the waiting time?",
+    "a1": "We operate on a zero-wait-time policy. You will be seen by the doctor safely and promptly at your scheduled time.",
+    "q2": "Do you accept insurance?",
+    "a2": "Yes, we accept a wide range of major insurance providers. Please contact our reception to confirm your specific coverage.",
+    "q3": "How can I book an appointment?",
+    "a3": "You can book an appointment easily through our website using the 'Get Medical Consultation Now' button, or call us directly.",
+    "q4": "Are your medical tools properly sterilized?",
+    "a4": "Absolutely. We adhere to the strictest global sterilization protocols using modern, state-of-the-art tools for every patient.",
+    "q5": "Where are you located in Egypt?",
+    "a5": "We have branches in top locations for your convenience, including Fifth Settlement, Sheikh Zayed, and Downtown."
+  }
+}
