@@ -1,8 +1,14 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function ContactSection() {
   const { t } = useTranslation();
+  const branches = [
+    { name: t("contact.branch1"), addr: t("contact.branch1Addr") },
+    { name: t("contact.branch2"), addr: t("contact.branch2Addr") },
+    { name: t("contact.branch3"), addr: t("contact.branch3Addr") },
+  ];
+
   return (
     <section id="contact" className="py-16 sm:py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,7 +22,6 @@ export default function ContactSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
-          {/* Contact Information */}
           <div className="space-y-6">
             <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">{t("contact.infoTitle")}</h3>
@@ -24,27 +29,13 @@ export default function ContactSection() {
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="bg-blue-100 p-3 rounded-2xl flex-shrink-0">
-                    <MapPin className="size-6 text-[#2563eb]" />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900 mb-1">{t("contact.addressTitle")}</div>
-                    <div className="text-gray-600">
-                      {t("contact.addressVal1")}
-                      <br />
-                      {t("contact.addressVal2")}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="bg-teal-100 p-3 rounded-2xl flex-shrink-0">
-                    <Phone className="size-6 text-[#14b8a6]" />
+                    <Phone className="size-6 text-[#2563eb]" />
                   </div>
                   <div>
                     <div className="font-semibold text-gray-900 mb-1">{t("contact.phone")}</div>
                     <div className="text-gray-600" dir="ltr">
-                      <a href="tel:+201270532076" className="hover:text-[#2563eb] transition-colors">
-                        +20 127 053 2076
+                      <a href="tel:+201222251379" className="hover:text-[#2563eb] transition-colors">
+                        +20 122 225 1379
                       </a>
                     </div>
                   </div>
@@ -57,8 +48,8 @@ export default function ContactSection() {
                   <div>
                     <div className="font-semibold text-gray-900 mb-1">{t("contact.email")}</div>
                     <div className="text-gray-600">
-                      <a href="mailto:contact@healthcareplus.com" className="hover:text-[#2563eb] transition-colors">
-                        contact@healthcareplus.com
+                      <a href="mailto:info@healthcareplus-eg.com" className="hover:text-[#2563eb] transition-colors">
+                        info@healthcareplus-eg.com
                       </a>
                     </div>
                   </div>
@@ -80,51 +71,38 @@ export default function ContactSection() {
               </div>
             </div>
 
-            {/* Emergency Contact */}
             <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl sm:rounded-3xl p-5 sm:p-6 border border-red-100">
               <div className="flex items-center gap-3 mb-2">
                 <div className="size-3 bg-red-500 rounded-full animate-pulse" />
                 <h4 className="font-bold text-gray-900">{t("contact.emergencyTitle")}</h4>
               </div>
-              <p className="text-gray-700">
-                {t("contact.emergencyDesc")}{" "}
-                <a href="tel:123" className="font-bold text-red-600 hover:text-red-700" dir="ltr">
-                  123
-                </a>{" "}
-                {t("contact.emergencyDesc2")}
-              </p>
+              <p className="text-gray-700">{t("contact.emergencyDesc")}</p>
+              <a
+                href="https://wa.me/201222251379"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center gap-2 text-green-600 hover:text-green-700 font-semibold"
+              >
+                <MessageCircle className="size-5" />
+                +20 122 225 1379
+              </a>
             </div>
           </div>
 
-          {/* Map Placeholder */}
-          <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
-            <div className="relative w-full h-full min-h-[300px] sm:min-h-[400px] lg:min-h-[600px]">
-              {/* Google Maps Placeholder */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-teal-50 to-blue-50 flex items-center justify-center">
-                <div className="text-center p-6 sm:p-8">
-                  <MapPin className="size-12 sm:size-16 text-[#2563eb] mx-auto mb-4" />
-                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">{t("contact.mapTitle")}</h3>
-                  <p className="text-gray-600 max-w-xs">
-                    {t("contact.mapDesc")}
-                  </p>
-                  <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-white rounded-2xl shadow-md">
-                    <MapPin className="size-4 text-[#2563eb]" />
-                    <span className="text-sm font-medium text-gray-700">{t("contact.addressVal1")}, {t("contact.addressVal2")}</span>
+          <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg border border-gray-100">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">{t("contact.branchesTitle")}</h3>
+            <div className="flex flex-col gap-4">
+              {branches.map((branch, idx) => (
+                <div key={idx} className="flex items-start gap-4 p-4 rounded-2xl bg-gray-50 border border-gray-100">
+                  <div className="bg-blue-100 p-3 rounded-2xl flex-shrink-0">
+                    <MapPin className="size-6 text-[#2563eb]" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-gray-900 mb-1">{branch.name}</div>
+                    <div className="text-gray-600">{branch.addr}</div>
                   </div>
                 </div>
-              </div>
-
-              {/* You can replace this with an actual Google Maps embed:
-              <iframe
-                src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Healthcare+ Location"
-              /> */}
+              ))}
             </div>
           </div>
         </div>

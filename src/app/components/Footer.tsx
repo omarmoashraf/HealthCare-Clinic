@@ -1,4 +1,4 @@
-import { Heart, Mail, Phone, MapPin } from "lucide-react";
+import { Smile, Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 
@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2 group">
               <div className="bg-[#2563eb] p-2 rounded-2xl group-hover:scale-105 transition-transform">
-                <Heart className="size-6 text-white" fill="white" />
+                <Smile className="size-6 text-white" />
               </div>
               <span className="text-xl font-semibold text-white">{t("nav.brand")}</span>
             </Link>
@@ -45,6 +45,16 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/#gallery" className="hover:text-[#2563eb] transition-colors">
+                  {t("nav.gallery")}
+                </a>
+              </li>
+              <li>
+                <a href="/#contact" className="hover:text-[#2563eb] transition-colors">
+                  {t("nav.contact")}
+                </a>
+              </li>
+              <li>
                 <Link to="/booking" className="hover:text-[#2563eb] transition-colors">
                   {t("nav.bookAppt")}
                 </Link>
@@ -56,10 +66,10 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">{t("footer.servicesTitle")}</h3>
             <ul className="space-y-3">
-              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.general.title")}</li>
-              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.surgery.title")}</li>
-              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.cardio.title")}</li>
-              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.peds.title")}</li>
+              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.dentalImplants.title")}</li>
+              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.crownBridges.title")}</li>
+              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.veneers.title")}</li>
+              <li className="hover:text-[#2563eb] transition-colors cursor-pointer">{t("services.items.orthodontics.title")}</li>
             </ul>
           </div>
 
@@ -68,37 +78,37 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">{t("footer.contactTitle")}</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
-                <Phone className="size-5 text-[#14b8a6] flex-shrink-0 mt-0.5" />
-                <a href="tel:+201270532076" className="hover:text-[#2563eb] transition-colors" dir="ltr">
-                  +20 127 053 2076
+                <Phone className="size-5 text-[#2563eb] flex-shrink-0 mt-0.5" />
+                <a href="tel:+201222251379" className="hover:text-[#2563eb] transition-colors" dir="ltr">
+                  +20 122 225 1379
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Mail className="size-5 text-[#14b8a6] flex-shrink-0 mt-0.5" />
-                <a href="mailto:contact@healthcareplus.com" className="hover:text-[#2563eb] transition-colors">
-                  contact@healthcareplus.com
+                <MessageCircle className="size-5 text-[#2563eb] flex-shrink-0 mt-0.5" />
+                <a href="https://wa.me/201222251379" target="_blank" rel="noopener noreferrer" className="hover:text-[#2563eb] transition-colors">
+                  WhatsApp
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="size-5 text-[#14b8a6] flex-shrink-0 mt-0.5" />
-                <span>{t("contact.addressVal1")}, {t("contact.addressVal2")}</span>
+                <Mail className="size-5 text-[#2563eb] flex-shrink-0 mt-0.5" />
+                <a href="mailto:info@healthcareplus-eg.com" className="hover:text-[#2563eb] transition-colors">
+                  info@healthcareplus-eg.com
+                </a>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Branch Locations — Local SEO (Egypt) */}
+        {/* Branch Locations */}
         <div className="mb-8 pt-6 border-t border-gray-800">
           <div className="flex flex-wrap items-center justify-center gap-2 text-sm text-gray-500">
-            <MapPin className="size-4 text-[#14b8a6]" />
-            <span>{isAr ? "فروعنا:" : "Our Branches:"}</span>
-            <span className="text-gray-400">{isAr ? "التجمع الخامس" : "Fifth Settlement"}</span>
+            <MapPin className="size-4 text-[#2563eb]" />
+            <span className="text-gray-400">{isAr ? "فروعنا:" : "Our Branches:"}</span>
+            <span className="text-gray-400">{isAr ? "مدينة نصر" : "Nasr City"}</span>
             <span className="text-gray-600">•</span>
-            <span className="text-gray-400">{isAr ? "الشيخ زايد" : "Sheikh Zayed"}</span>
+            <span className="text-gray-400">{isAr ? "المعادي" : "Maadi"}</span>
             <span className="text-gray-600">•</span>
-            <span className="text-gray-400">{isAr ? "المهندسين" : "Mohandessin"}</span>
-            <span className="text-gray-600">•</span>
-            <span className="text-gray-400">{isAr ? "وسط البلد" : "Downtown Cairo"}</span>
+            <span className="text-gray-400">{isAr ? "المقطم" : "Mokattam"}</span>
           </div>
         </div>
 
@@ -115,9 +125,6 @@ export default function Footer() {
               <a href="#" className="hover:text-[#2563eb] transition-colors">
                 {t("footer.terms")}
               </a>
-              <a href="#" className="hover:text-[#2563eb] transition-colors">
-                {t("footer.hipaa")}
-              </a>
             </div>
           </div>
         </div>
@@ -125,4 +132,3 @@ export default function Footer() {
     </footer>
   );
 }
-

@@ -1,11 +1,10 @@
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import ServicesSection from "./sections/ServicesSection";
+import BeforeAfterSection from "./sections/BeforeAfterSection";
 import TestimonialsSection from "./sections/TestimonialsSection";
 import ContactSection from "./sections/ContactSection";
 import Footer from "./Footer";
-import WhyUsSection from "./sections/WhyUsSection";
-import FaqSection from "./sections/FaqSection";
 import { useSEO } from "../hooks/useSEO";
 import { useTranslation } from "react-i18next";
 
@@ -59,11 +58,10 @@ export default function HomePage() {
   return (
     <main className="pt-16 sm:pt-20">
       <HeroSection />
-      <WhyUsSection />
       <AboutSection />
       <ServicesSection />
+      <BeforeAfterSection />
       <TestimonialsSection />
-      <FaqSection />
       <ContactSection />
       <Footer />
     </main>
