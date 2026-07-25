@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router";
-import { Heart, Menu, X, Globe } from "lucide-react";
+import { Smile, Menu, X, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { useTranslation } from "react-i18next";
@@ -14,6 +14,7 @@ export default function Navigation() {
     { href: "/", label: t("nav.home") },
     { href: "/#services", label: t("nav.services") },
     { href: "/#about", label: t("nav.about") },
+    { href: "/#gallery", label: t("nav.gallery") },
     { href: "/#testimonials", label: t("nav.testimonials") },
     { href: "/#contact", label: t("nav.contact") },
   ];
@@ -46,7 +47,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-1.5 sm:gap-2 group">
             <div className="bg-[#2563eb] p-1.5 sm:p-2 rounded-xl sm:rounded-2xl group-hover:scale-105 transition-transform shrink-0">
-              <Heart className="size-5 sm:size-6 text-white" fill="white" />
+              <Smile className="size-5 sm:size-6 text-white" />
             </div>
             <span className="text-lg sm:text-2xl font-semibold text-gray-900 truncate">{t("nav.brand")}</span>
           </Link>

@@ -2,22 +2,23 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "about": "About",
+    "about": "About Us",
+    "gallery": "Gallery",
     "testimonials": "Testimonials",
-    "contact": "Contact",
-    "bookAppt": "Get Medical Consultation Now",
-    "bookApptNow": "Get Medical Consultation Now",
+    "contact": "Contact Us",
+    "bookAppt": "Book Now",
+    "bookApptNow": "Book Now",
     "brand": "HealthCare+"
   },
   "hero": {
     "acceptingNew": "Now Accepting New Patients",
-    "title1": "Compassionate Care.",
-    "title2": "Modern Facilities.",
-    "title3": "Trusted Doctors.",
-    "subtitle1": "Experience healthcare designed for your comfort.",
-    "subtitle2": "Book your appointment in 3 clicks.",
-    "scheduleNow": "Get Medical Consultation Now",
-    "meetTeam": "Meet Our Team",
+    "title1": "Your Smile,",
+    "title2": "Our Passion.",
+    "title3": "Expert Dental Care.",
+    "subtitle1": "Advanced dentistry in a warm, welcoming environment.",
+    "subtitle2": "Book your dental appointment in seconds.",
+    "scheduleNow": "Book Now",
+    "meetTeam": "Meet Our Dentists",
     "stats": {
       "exp": "15+",
       "expSub": "Years Experience",
@@ -27,14 +28,14 @@
       "rateSub": "Satisfaction Rate"
     },
     "slides": {
-      "reception": "Welcoming Reception",
-      "exams": "Modern Examination Rooms",
-      "team": "Expert Medical Team"
+      "reception": "Modern Dental Clinic",
+      "exams": "Advanced Dental Technology",
+      "team": "Expert Dental Team"
     },
     "badges": {
       "rating": "4.9 Patient Rating",
-      "specialists": "Verified Specialists",
-      "accredited": "Accredited Facility"
+      "specialists": "Certified Dentists",
+      "accredited": "Sterilization Certified"
     },
     "waiting": {
       "title": "Current Waiting Time",
@@ -62,77 +63,142 @@
     "credentials": "15+ Years specialized expertise, thousands of successful treatments. Board-certified with highest authoritative credentials in the field."
   },
   "services": {
-    "title1": "Our Medical",
+    "title1": "Our Dental",
     "title2": "Services",
-    "subtitle": "Comprehensive healthcare solutions tailored to meet your unique needs",
+    "subtitle": "Comprehensive dental care solutions tailored to give you a healthy, beautiful smile",
     "items": {
-      "general": {
-        "title": "General Checkup",
-        "desc": "Comprehensive health examinations and preventive care screenings for all ages."
+      "crownBridges": {
+        "title": "Crown & Bridges",
+        "desc": "Cover the defect; a dental bridge fills in the space caused by one or more missing teeth, while a crown covers an existing tooth."
       },
-      "surgery": {
-        "title": "Specialized Surgery",
-        "desc": "Advanced surgical procedures performed by expert surgeons with state-of-the-art equipment."
+      "dentalFilling": {
+        "title": "Dental Filling",
+        "desc": "Say goodbye to caries; appropriate filling after removal of caries."
       },
-      "cardio": {
-        "title": "Cardiology",
-        "desc": "Expert heart care and cardiovascular disease prevention, diagnosis, and treatment."
+      "dentalImplants": {
+        "title": "Dental Implants",
+        "desc": "Regain your lost ones; different types of implants to suit your case."
       },
-      "neuro": {
-        "title": "Neurology",
-        "desc": "Specialized care for neurological conditions and brain health management."
+      "preventiveTreatment": {
+        "title": "Preventive Treatment",
+        "desc": "Such as fluoride application; to improve your teeth health; high concentration of fluoride to reduce the risk of cavities."
       },
-      "ophthal": {
-        "title": "Ophthalmology",
-        "desc": "Complete eye care services including exams, treatments, and corrective procedures."
+      "accurateDiagnosis": {
+        "title": "Accurate Diagnosis",
+        "desc": "The key for proper management; we use the latest technologies and the most accurate techniques to reach the exact diagnosis for your problem and efficiently manage it."
       },
-      "peds": {
-        "title": "Pediatrics",
-        "desc": "Dedicated healthcare for infants, children, and adolescents with compassionate care."
+      "removableDenture": {
+        "title": "Removable Partial Denture",
+        "desc": "Regain your confidence; a partial or complete dental prosthesis that is used to replace multiple missing teeth."
+      },
+      "rootCanal": {
+        "title": "Root Canal Treatment",
+        "desc": "Forget the nerve pain; treat infection at the center of a tooth."
+      },
+      "scalingPolishing": {
+        "title": "Scaling & Polishing",
+        "desc": "Make your smile shine: removal of plaque and tartar deposits built up on the teeth."
+      },
+      "veneers": {
+        "title": "Veneers",
+        "desc": "Smile like a movie star; tooth-colored shells attached to the front surface of teeth to improve their appearance."
+      },
+      "digitalXray": {
+        "title": "Digital X-ray",
+        "desc": "Enhanced Images; These x-rays are captured using digital sensors instead of the traditional x-ray film increasing the accuracy of diagnostics."
+      },
+      "panoramicXray": {
+        "title": "Panoramic X-ray",
+        "desc": "A Snapshot for your mouth; An overview of the entire mouth and jaws including: all the teeth, the TMJ and the sinus cavity."
+      },
+      "pediatric": {
+        "title": "Pediatric & Special Needs",
+        "desc": "No more worries; a specialized team to care for you and your beloved ones."
+      },
+      "orthodontics": {
+        "title": "Orthodontics",
+        "desc": "Diagnosing, preventing, and treating misaligned teeth and jaw problems."
+      },
+      "dentalLaser": {
+        "title": "Dental Laser Treatment",
+        "desc": "Dental laser uses focused light energy to perform or assist in dental procedures instead of traditional tools like drills or scalpels."
+      },
+      "smileMakeover": {
+        "title": "Smile Makeover",
+        "desc": "A complete smile transformation; combining multiple cosmetic procedures to achieve your dream smile."
+      },
+      "minorSurgeries": {
+        "title": "Dental Minor Surgeries",
+        "desc": "Simple surgical procedures done in the dental clinic under local anesthesia to treat problems affecting teeth, gums, or surrounding bone."
+      },
+      "cbct": {
+        "title": "CBCT",
+        "desc": "CBCT gives full-depth view of hard tissues, detailed bone quality and nerve mapping, essential for implants and complex dental cases."
       }
     },
     "learnMore": "Learn More",
-    "bookBtn": "Get Medical Consultation Now"
+    "bookBtn": "Book Now"
   },
-  "testimonials": {
-    "title1": "What Our",
-    "title2": "Patients Say",
-    "subtitle": "Real experiences from our valued patients",
-    "join": "Join 10,000+ Happy Patients",
-    "rated": "Rated 4.9/5 on average",
-    "roles": {
-      "exec": "Business Executive",
-      "teacher": "Teacher",
-      "engineer": "Software Engineer"
-    },
-    "reviews": {
-      "1": "The level of care and attention I received was exceptional. Dr. Hassan took the time to understand my concerns and provided a comprehensive treatment plan. Highly recommend!",
-      "2": "From booking to consultation, everything was seamless. The staff is incredibly professional and caring. I've never felt more confident about my healthcare decisions.",
-      "3": "Outstanding medical facility with cutting-edge technology. The doctors are knowledgeable and genuinely care about patient outcomes. Five stars all the way!"
+  "beforeAfter": {
+    "title1": "Before &",
+    "title2": "After",
+    "subtitle": "Real results from our patients",
+    "before": "Before",
+    "after": "After",
+    "case1": "Smile Makeover with Veneers",
+    "case2": "Full Mouth Rehabilitation with Implants",
+    "case3": "Orthodontic Treatment",
+    "case4": "Dental Implants",
+    "case5": "Crown & Bridges",
+    "case6": "Root Canal Treatment",
+    "case7": "Scaling & Polishing",
+    "case8": "Composite Bonding"
+  },
+  "trust": {
+    "title1": "Why Patients Trust",
+    "title2": "HealthCare+",
+    "subtitle": "Real results, proven experience, and world-class care — trusted by thousands across Cairo.",
+    "stats": {
+      "smiles": {
+        "value": "10,000+",
+        "label": "Successful Smile Makeovers",
+        "desc": "Smiles transformed with veneers, implants, and orthodontics."
+      },
+      "expertise": {
+        "value": "10+",
+        "label": "Years of Combined Expertise",
+        "desc": "Highly trained specialists in implants, veneers & orthodontics."
+      },
+      "branches": {
+        "value": "3",
+        "label": "Branches Across Cairo",
+        "desc": "Maadi – Nasr City – Mokkattam."
+      }
     }
   },
   "contact": {
     "title1": "Find",
     "title2": "Us",
-    "subtitle": "Visit our modern facility or get in touch with us",
+    "subtitle": "Visit one of our branches or get in touch with us",
     "infoTitle": "Contact Information",
-    "addressTitle": "Address",
-    "addressVal1": "EL Mohandseen",
-    "addressVal2": "Cairo, Egypt",
-    "phone": "Phone",
+    "phone": "Phone / WhatsApp",
     "email": "Email",
     "hoursTitle": "Office Hours",
-    "hours1": "Monday - Friday: 8:00 AM - 8:00 PM",
-    "hours2": "Saturday: 9:00 AM - 5:00 PM",
-    "hours3": "Sunday: 10:00 AM - 4:00 PM",
-    "emergencyTitle": "Emergency Services",
-    "emergencyDesc": "For medical emergencies, please call",
-    "emergencyDesc2": "or visit your nearest emergency room.",
-    "mapTitle": "Interactive Map",
-    "mapDesc": "Connect your Google Maps API to display an interactive location map"
+    "hours1": "Monday - Friday: 9:00 AM - 9:00 PM",
+    "hours2": "Saturday: 10:00 AM - 6:00 PM",
+    "hours3": "Sunday: Closed",
+    "emergencyTitle": "Dental Emergency?",
+    "emergencyDesc": "Contact us on WhatsApp for urgent dental cases",
+    "branchesTitle": "Our Branches",
+    "branch1": "Nasr City",
+    "branch1Addr": "Makram Ebeid Street",
+    "branch2": "Maadi",
+    "branch2Addr": "El Lasilky Street",
+    "branch3": "Mokattam",
+    "branch3Addr": "Central Plateau"
   },
   "footer": {
-    "desc": "Providing exceptional healthcare services with compassion and expertise since 2008.",
+    "desc": "Advanced dental care with compassion and expertise since 2008.",
     "quickLinks": "Quick Links",
     "servicesTitle": "Our Services",
     "contactTitle": "Contact Us",
@@ -145,28 +211,20 @@
     "backHome": "Back to Home",
     "title1": "Book Your",
     "title2": "Appointment",
-    "subtitle": "Schedule your visit in just a few simple steps",
-    "step1": "Select Service",
-    "step2": "Select Date",
-    "today": "Today",
-    "step3": "Select Time",
+    "subtitle": "Fill in your details and we'll confirm via WhatsApp",
+    "service": "Service",
+    "servicePlaceholder": "Select a service",
+    "date": "Date",
+    "time": "Preferred Time",
+    "timePlaceholder": "Select time",
     "morning": "Morning",
     "afternoon": "Afternoon",
     "evening": "Evening",
-    "step4": "Your Information",
     "fullName": "Full Name",
     "fullNamePlaceholder": "John Doe",
     "phone": "Phone Number",
-    "phonePlaceholder": "+1 (234) 567-8900",
-    "summary": "Booking Summary",
-    "service": "Service",
-    "notSelected": "Not selected",
-    "date": "Date",
-    "time": "Time",
-    "patientName": "Patient Name",
-    "notProvided": "Not provided",
+    "phonePlaceholder": "0100 000 0000",
     "confirmWhatsapp": "Confirm via WhatsApp",
-    "redirectText": "You'll be redirected to WhatsApp to confirm your booking",
     "fillAll": "Please fill in all fields",
     "waMessage": "Hi! I would like to book an appointment:\n\nName: {{name}}\nPhone: {{phone}}\nService: {{service}}\nDate: {{date}}\nTime: {{time}}"
   },

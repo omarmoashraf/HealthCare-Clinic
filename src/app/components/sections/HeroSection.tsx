@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router";
-import { ArrowRight, ChevronLeft, ChevronRight, Star, ShieldCheck, BadgeCheck, Clock } from "lucide-react";
+import { ArrowRight, ChevronLeft, ChevronRight, Star, ShieldCheck, BadgeCheck } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
 import { useTranslation } from "react-i18next";
@@ -8,20 +8,20 @@ import { useTranslation } from "react-i18next";
 const getSlides = (t: any) => [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1698742164676-47d49e62a8ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZWRpY2FsJTIwY2xpbmljJTIwcmVjZXB0aW9uJTIwYXJlYSUyMHdhcm0lMjBpbnRlcmlvcnxlbnwxfHx8fDE3NzM3MDQ2NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Warm, modern clinic reception area",
+    src: "/images/hero/hero-1.jpg",
+    alt: "Modern dental clinic",
     label: t("hero.slides.reception"),
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1766299892549-b56b257d1ddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmlnaHQlMjBtZWRpY2FsJTIwZXhhbWluYXRpb24lMjByb29tJTIwY2xlYW4lMjBtaW5pbWFsaXN0fGVufDF8fHx8MTc3MzcwNDY2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Clean, sunlit examination room",
+    src: "/images/hero/hero-2.jpg",
+    alt: "Dental treatment room",
     label: t("hero.slides.exams"),
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
-    alt: "Professional male doctor in white coat",
+    src: "/images/hero/hero-3.jpg",
+    alt: "Dental team",
     label: t("hero.slides.team"),
   },
 ];
@@ -185,30 +185,6 @@ export default function HeroSection() {
                 {t("hero.meetTeam")}
               </button>
             </div>
-
-            {/* Stats strip */}
-            <div className="flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 pt-6 border-t border-[#E2E8F0] justify-between sm:justify-start">
-              {[
-                { value: t("hero.stats.exp"), sub: t("hero.stats.expSub") },
-                { value: t("hero.stats.docs"), sub: t("hero.stats.docsSub") },
-                { value: t("hero.stats.rate"), sub: t("hero.stats.rateSub") },
-              ].map(({ value, sub }) => (
-                <div key={sub} className="min-w-[45%] sm:min-w-0">
-                  <div
-                    className="text-2xl sm:text-3xl text-[#1E293B]"
-                    style={{ fontFamily: i18n.language === 'ar' ? 'inherit' : "'Playfair Display', serif", fontWeight: 700 }}
-                  >
-                    {value}
-                  </div>
-                  <div
-                    className="text-sm text-[#64748B] mt-0.5"
-                    style={{ fontFamily: "inherit", fontWeight: 400 }}
-                  >
-                    {sub}
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* ─── RIGHT: Image Slider ─── */}
@@ -296,34 +272,6 @@ export default function HeroSection() {
                   </button>
                 ))}
               </div>
-            </div>
-
-            {/* Floating Status Card — Waiting Time */}
-            <div
-              className="absolute -bottom-4 -left-2 sm:-bottom-5 sm:-left-5 lg:-left-8 z-30 flex items-center gap-2.5 sm:gap-3.5 px-3 py-2.5 sm:px-5 sm:py-3.5 bg-white rounded-xl sm:rounded-2xl shrink-0"
-              style={{ boxShadow: "0 8px 30px rgba(30,41,59,0.12), 0 2px 8px rgba(30,41,59,0.06)" }}
-            >
-              <div
-                className="size-8 sm:size-10 rounded-lg sm:rounded-xl flex items-center justify-center shrink-0"
-                style={{ background: "linear-gradient(135deg, #ecfdf5, #d1fae5)" }}
-              >
-                <Clock className="size-4 sm:size-5 text-emerald-600" strokeWidth={2} />
-              </div>
-              <div>
-                <div
-                  className="text-[10px] sm:text-[11px] text-[#64748B] uppercase tracking-wider truncate max-w-[90px] sm:max-w-none"
-                  style={{ fontFamily: "inherit", fontWeight: 600 }}
-                >
-                  {t("hero.waiting.title")}
-                </div>
-                <div
-                  className="text-[#0D9488]"
-                  style={{ fontFamily: "inherit", fontWeight: 700 }}
-                >
-                  <span className="text-[0.85rem] sm:text-[0.95rem]">{t("hero.waiting.time")}</span>
-                </div>
-              </div>
-              <div className="size-2 rounded-full bg-emerald-400 animate-pulse mx-1" />
             </div>
 
             {/* Decorative accent ring */}
