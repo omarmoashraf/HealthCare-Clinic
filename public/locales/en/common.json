@@ -2,194 +2,194 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "about": "About Us",
+    "about": "Our Team",
     "gallery": "Gallery",
-    "testimonials": "Testimonials",
-    "contact": "Contact Us",
-    "bookAppt": "Book Now",
-    "bookApptNow": "Book Now",
-    "brand": "HealthCare+"
+    "testimonials": "Patient Results",
+    "contact": "Locations",
+    "bookAppt": "Book Appointment",
+    "bookApptNow": "Book Appointment",
+    "brand": "DentalCare+"
   },
   "hero": {
     "acceptingNew": "Now Accepting New Patients",
-    "title1": "Your Smile,",
-    "title2": "Our Passion.",
-    "title3": "Expert Dental Care.",
-    "subtitle1": "Advanced dentistry in a warm, welcoming environment.",
-    "subtitle2": "Book your dental appointment in seconds.",
-    "scheduleNow": "Book Now",
-    "meetTeam": "Meet Our Dentists",
+    "title1": "A Smile You'll",
+    "title2": "Be Proud Of.",
+    "title3": "Expert Dental Care, Made for You.",
+    "subtitle1": "From routine check-ups to full smile transformations — our specialists deliver precision care in a calm, welcoming environment.",
+    "subtitle2": "Reserve your appointment online in under a minute.",
+    "scheduleNow": "Reserve Your Appointment",
+    "meetTeam": "Meet Our Specialists",
     "stats": {
       "exp": "15+",
-      "expSub": "Years Experience",
+      "expSub": "Years of Excellence",
       "docs": "50+",
-      "docsSub": "Expert Doctors",
+      "docsSub": "Certified Specialists",
       "rate": "98%",
-      "rateSub": "Satisfaction Rate"
+      "rateSub": "Patient Satisfaction"
     },
     "slides": {
-      "reception": "Modern Dental Clinic",
+      "reception": "Modern, Fully Equipped Clinic",
       "exams": "Advanced Dental Technology",
-      "team": "Expert Dental Team"
+      "team": "Our Expert Dental Team"
     },
     "badges": {
-      "rating": "4.9 Patient Rating",
-      "specialists": "Certified Dentists",
-      "accredited": "Sterilization Certified"
+      "rating": "4.9★ Patient Rating",
+      "specialists": "Board-Certified Dentists",
+      "accredited": "Internationally Sterilized"
     },
     "waiting": {
-      "title": "Current Waiting Time",
+      "title": "Current Wait Time",
       "time": "< 15 Min"
     }
   },
   "about": {
-    "title1": "Expert Care",
-    "title2": "For You",
-    "subtitle": "Meet our lead physician dedicated to providing exceptional healthcare",
+    "title1": "Led by",
+    "title2": "Specialists You Can Trust",
+    "subtitle": "Meet the experienced practitioner behind our clinic's reputation for excellence",
     "drName": "Dr. Ahmed Hassan",
-    "drTitle": "MD, FACP",
-    "drRole": "Chief Medical Officer",
-    "board": "Board Certified Physician",
-    "boardSub": "Internal Medicine & Family Practice",
-    "exp": "15+ Years Experience",
-    "expSub": "Over 10,000 patients treated successfully",
-    "desc": "Dr. Hassan is dedicated to providing comprehensive, compassionate care. With expertise in preventive medicine and chronic disease management, he ensures every patient receives personalized attention and the highest quality treatment.",
+    "drTitle": "BDS, MSc Oral Surgery",
+    "drRole": "Lead Dental Surgeon & Clinic Director",
+    "board": "Board-Certified Dental Surgeon",
+    "boardSub": "Oral Surgery & Restorative Dentistry",
+    "exp": "15+ Years of Clinical Experience",
+    "expSub": "Over 10,000 successful dental procedures",
+    "desc": "Dr. Hassan founded DentalCare+ with a single mission: to make premium dental care accessible, pain-free, and lasting. His expertise spans implantology, cosmetic dentistry, and complex restorations. Every treatment plan is crafted individually — because no two smiles are alike.",
     "tags": {
-      "cardio": "Cardiology",
-      "internal": "Internal Medicine",
-      "preventive": "Preventive Care"
+      "cardio": "Dental Implants",
+      "internal": "Cosmetic Dentistry",
+      "preventive": "Oral Surgery"
     },
-    "rating": "5.0 Rating",
-    "credentials": "15+ Years specialized expertise, thousands of successful treatments. Board-certified with highest authoritative credentials in the field."
+    "rating": "5.0 Star Rating",
+    "credentials": "15+ years of specialized clinical practice, thousands of successful cases. Internationally accredited with the highest standards of professional trust and verified expertise."
   },
   "services": {
-    "title1": "Our Dental",
-    "title2": "Services",
-    "subtitle": "Comprehensive dental care solutions tailored to give you a healthy, beautiful smile",
+    "title1": "Treatments We",
+    "title2": "Specialize In",
+    "subtitle": "Comprehensive dental solutions — from prevention to full-mouth rehabilitation — all under one roof",
     "items": {
       "crownBridges": {
-        "title": "Crown & Bridges",
-        "desc": "Cover the defect; a dental bridge fills in the space caused by one or more missing teeth, while a crown covers an existing tooth."
+        "title": "Crowns & Bridges",
+        "desc": "Restore strength and symmetry to your smile. Our precision-crafted crowns protect damaged teeth, while bridges seamlessly replace one or more missing teeth for a natural, lasting result."
       },
       "dentalFilling": {
-        "title": "Dental Filling",
-        "desc": "Say goodbye to caries; appropriate filling after removal of caries."
+        "title": "Tooth-Coloured Fillings",
+        "desc": "Say farewell to cavities and metal fillings. We use advanced composite materials that blend invisibly with your natural teeth, restoring both function and aesthetics in a single visit."
       },
       "dentalImplants": {
         "title": "Dental Implants",
-        "desc": "Regain your lost ones; different types of implants to suit your case."
+        "desc": "The gold standard in tooth replacement. Our titanium implants fuse naturally with your jawbone, offering a permanent, stable solution that looks, feels, and functions just like a natural tooth."
       },
       "preventiveTreatment": {
-        "title": "Preventive Treatment",
-        "desc": "Such as fluoride application; to improve your teeth health; high concentration of fluoride to reduce the risk of cavities."
+        "title": "Preventive Care",
+        "desc": "Your strongest defence against dental problems. From fluoride treatments to protective sealants, we help you maintain a healthy mouth and stop issues before they start."
       },
       "accurateDiagnosis": {
-        "title": "Accurate Diagnosis",
-        "desc": "The key for proper management; we use the latest technologies and the most accurate techniques to reach the exact diagnosis for your problem and efficiently manage it."
+        "title": "Precision Diagnosis",
+        "desc": "Accurate treatment starts with accurate diagnosis. We use the latest digital imaging and clinical technology to identify problems early and design effective, minimally invasive treatment plans."
       },
       "removableDenture": {
-        "title": "Removable Partial Denture",
-        "desc": "Regain your confidence; a partial or complete dental prosthesis that is used to replace multiple missing teeth."
+        "title": "Removable Dentures",
+        "desc": "Regain the confidence to eat, speak, and smile freely. Our custom-fitted partial and full dentures are crafted for comfort and a natural appearance that suits your unique facial structure."
       },
       "rootCanal": {
         "title": "Root Canal Treatment",
-        "desc": "Forget the nerve pain; treat infection at the center of a tooth."
+        "desc": "Modern root canal therapy is virtually painless. We clear the infection, relieve your discomfort, and save the natural tooth — so you leave feeling far better than when you arrived."
       },
       "scalingPolishing": {
-        "title": "Scaling & Polishing",
-        "desc": "Make your smile shine: removal of plaque and tartar deposits built up on the teeth."
+        "title": "Scale & Polish",
+        "desc": "A brighter, fresher smile starts here. Our professional cleaning removes built-up plaque and tartar, eliminates surface stains, and gives your teeth the thorough clean your toothbrush simply can't."
       },
       "veneers": {
-        "title": "Veneers",
-        "desc": "Smile like a movie star; tooth-colored shells attached to the front surface of teeth to improve their appearance."
+        "title": "Porcelain Veneers",
+        "desc": "Transform your smile in just two visits. Our ultra-thin porcelain veneers are custom-designed to correct chips, gaps, discolouration, and irregular shapes — for a naturally stunning result."
       },
       "digitalXray": {
-        "title": "Digital X-ray",
-        "desc": "Enhanced Images; These x-rays are captured using digital sensors instead of the traditional x-ray film increasing the accuracy of diagnostics."
+        "title": "Digital X-Ray",
+        "desc": "Sharper images, faster answers, minimal radiation. Our digital X-ray sensors provide exceptionally detailed views of your teeth and bone, enabling faster, more accurate diagnoses every time."
       },
       "panoramicXray": {
-        "title": "Panoramic X-ray",
-        "desc": "A Snapshot for your mouth; An overview of the entire mouth and jaws including: all the teeth, the TMJ and the sinus cavity."
+        "title": "Panoramic X-Ray",
+        "desc": "A complete picture of your oral health in a single scan. Our panoramic X-ray captures your full jaw, all teeth, the TMJ joint, and surrounding bone — giving us the full clinical picture."
       },
       "pediatric": {
-        "title": "Pediatric & Special Needs",
-        "desc": "No more worries; a specialized team to care for you and your beloved ones."
+        "title": "Paediatric Dentistry",
+        "desc": "Gentle, child-friendly care for your little ones. Our paediatric-trained dentists create a calm, positive experience that builds healthy dental habits children carry throughout their lives."
       },
       "orthodontics": {
         "title": "Orthodontics",
-        "desc": "Diagnosing, preventing, and treating misaligned teeth and jaw problems."
+        "desc": "Straighten your teeth and align your bite with confidence. We offer both traditional braces and modern clear aligner systems tailored to your lifestyle, timeline, and aesthetic goals."
       },
       "dentalLaser": {
-        "title": "Dental Laser Treatment",
-        "desc": "Dental laser uses focused light energy to perform or assist in dental procedures instead of traditional tools like drills or scalpels."
+        "title": "Laser Dentistry",
+        "desc": "Precision treatment with minimal discomfort and faster healing. Our dental laser technology is used for gum contouring, cavity treatment, and whitening — a truly modern approach to dental care."
       },
       "smileMakeover": {
         "title": "Smile Makeover",
-        "desc": "A complete smile transformation; combining multiple cosmetic procedures to achieve your dream smile."
+        "desc": "Your dream smile, fully realised. A smile makeover combines the right mix of cosmetic procedures — veneers, whitening, reshaping — to deliver a result that's uniquely, beautifully yours."
       },
       "minorSurgeries": {
-        "title": "Dental Minor Surgeries",
-        "desc": "Simple surgical procedures done in the dental clinic under local anesthesia to treat problems affecting teeth, gums, or surrounding bone."
+        "title": "Minor Oral Surgeries",
+        "desc": "Safe, comfortable, in-chair procedures performed under local anaesthesia. Whether it's a tooth extraction, cyst removal, or gum correction — our surgical team ensures a smooth, worry-free experience."
       },
       "cbct": {
-        "title": "CBCT",
-        "desc": "CBCT gives full-depth view of hard tissues, detailed bone quality and nerve mapping, essential for implants and complex dental cases."
+        "title": "3D CBCT Scanning",
+        "desc": "The most comprehensive view of your dental anatomy. Our CBCT scanner provides precise 3D images of bone depth, nerve pathways, and sinus structures — essential for implant planning and complex cases."
       }
     },
-    "learnMore": "Learn More",
-    "bookBtn": "Book Now"
+    "learnMore": "Book This Treatment",
+    "bookBtn": "View All Treatments & Book"
   },
   "beforeAfter": {
-    "title1": "Before &",
-    "title2": "After",
-    "subtitle": "Real results from our patients",
+    "title1": "Real Results,",
+    "title2": "Real Patients",
+    "subtitle": "Every smile you see was transformed by our team — no filters, no enhancements, just exceptional dentistry",
     "before": "Before",
     "after": "After",
     "case1": "Smile Makeover with Veneers",
-    "case2": "Full Mouth Rehabilitation with Implants",
-    "case3": "Orthodontic Treatment",
-    "case4": "Dental Implants",
-    "case5": "Crown & Bridges",
-    "case6": "Root Canal Treatment",
-    "case7": "Scaling & Polishing",
+    "case2": "Full-Mouth Rehabilitation with Implants",
+    "case3": "Orthodontic Transformation",
+    "case4": "Dental Implants Placement",
+    "case5": "Crown & Bridge Restoration",
+    "case6": "Root Canal & Crown",
+    "case7": "Deep Scaling & Polish",
     "case8": "Composite Bonding"
   },
   "trust": {
-    "title1": "Why Patients Trust",
-    "title2": "HealthCare+",
-    "subtitle": "Real results, proven experience, and world-class care — trusted by thousands across Cairo.",
+    "title1": "Trusted by Thousands",
+    "title2": "Across Cairo",
+    "subtitle": "Our numbers speak for themselves — but it's the smiles of our patients that truly tell the story.",
     "stats": {
       "smiles": {
         "value": "10,000+",
-        "label": "Successful Smile Makeovers",
-        "desc": "Smiles transformed with veneers, implants, and orthodontics."
+        "label": "Smiles Transformed",
+        "desc": "Successful cases spanning veneers, implants, orthodontics, and full-mouth rehabilitation."
       },
       "expertise": {
         "value": "10+",
-        "label": "Years of Combined Expertise",
-        "desc": "Highly trained specialists in implants, veneers & orthodontics."
+        "label": "Years of Specialist Expertise",
+        "desc": "A highly trained team of certified specialists, continuously advancing with the latest in dental science."
       },
       "branches": {
         "value": "3",
-        "label": "Branches Across Cairo",
-        "desc": "Maadi – Nasr City – Mokkattam."
+        "label": "Clinic Locations in Cairo",
+        "desc": "Convenient branches in Maadi, Nasr City, and Mokattam — always close to you."
       }
     }
   },
   "contact": {
-    "title1": "Find",
-    "title2": "Us",
-    "subtitle": "Visit one of our branches or get in touch with us",
-    "infoTitle": "Contact Information",
-    "phone": "Phone / WhatsApp",
-    "email": "Email",
-    "hoursTitle": "Office Hours",
-    "hours1": "Monday - Friday: 9:00 AM - 9:00 PM",
-    "hours2": "Saturday: 10:00 AM - 6:00 PM",
+    "title1": "We're",
+    "title2": "Here for You",
+    "subtitle": "Visit your nearest branch or reach out — our team is ready to help",
+    "infoTitle": "Get in Touch",
+    "phone": "Call or WhatsApp",
+    "email": "Email Us",
+    "hoursTitle": "Clinic Hours",
+    "hours1": "Monday – Friday: 9:00 AM – 9:00 PM",
+    "hours2": "Saturday: 10:00 AM – 6:00 PM",
     "hours3": "Sunday: Closed",
     "emergencyTitle": "Dental Emergency?",
-    "emergencyDesc": "Contact us on WhatsApp for urgent dental cases",
-    "branchesTitle": "Our Branches",
+    "emergencyDesc": "Don't wait — message us directly on WhatsApp and we'll get you seen as soon as possible.",
+    "branchesTitle": "Our Locations",
     "branch1": "Nasr City",
     "branch1Addr": "Makram Ebeid Street",
     "branch2": "Maadi",
@@ -198,7 +198,7 @@
     "branch3Addr": "Central Plateau"
   },
   "footer": {
-    "desc": "Advanced dental care with compassion and expertise since 2008.",
+    "desc": "Delivering premium dental care with precision, warmth, and integrity since 2008.",
     "quickLinks": "Quick Links",
     "servicesTitle": "Our Services",
     "contactTitle": "Contact Us",
@@ -209,56 +209,56 @@
   },
   "booking": {
     "backHome": "Back to Home",
-    "title1": "Book Your",
+    "title1": "Reserve Your",
     "title2": "Appointment",
-    "subtitle": "Fill in your details and we'll confirm via WhatsApp",
-    "service": "Service",
-    "servicePlaceholder": "Select a service",
-    "date": "Date",
+    "subtitle": "Fill in your details below and we'll confirm your booking via WhatsApp — usually within minutes",
+    "service": "Treatment Needed",
+    "servicePlaceholder": "Choose a treatment",
+    "date": "Preferred Date",
     "time": "Preferred Time",
-    "timePlaceholder": "Select time",
-    "morning": "Morning",
-    "afternoon": "Afternoon",
-    "evening": "Evening",
+    "timePlaceholder": "Choose a time slot",
+    "morning": "Morning (9 AM – 12 PM)",
+    "afternoon": "Afternoon (12 PM – 5 PM)",
+    "evening": "Evening (5 PM – 9 PM)",
     "fullName": "Full Name",
-    "fullNamePlaceholder": "John Doe",
-    "phone": "Phone Number",
+    "fullNamePlaceholder": "e.g. Sarah Johnson",
+    "phone": "Mobile Number",
     "phonePlaceholder": "0100 000 0000",
-    "confirmWhatsapp": "Confirm via WhatsApp",
-    "fillAll": "Please fill in all fields",
-    "waMessage": "Hi! I would like to book an appointment:\n\nName: {{name}}\nPhone: {{phone}}\nService: {{service}}\nDate: {{date}}\nTime: {{time}}"
+    "confirmWhatsapp": "Confirm Booking via WhatsApp",
+    "fillAll": "Please complete all fields before confirming.",
+    "waMessage": "Hello! I'd like to book a dental appointment:\n\nName: {{name}}\nPhone: {{phone}}\nTreatment: {{service}}\nDate: {{date}}\nTime: {{time}}\n\nPlease confirm my appointment. Thank you!"
   },
   "seo": {
-    "homeTitle": "Top Specialized Clinic in Cairo | Book Appointment Online Instantly",
-    "homeDesc": "Experience the best medical care with expert consultants. Zero wait time, modern sterilized tools. Book your medical consultation now.",
-    "homeKeywords": "book doctor appointment, specialized clinic, best doctor in Egypt, clinic schedule",
-    "bookingTitle": "Book Appointment Now | Zero Wait Time",
-    "bookingDesc": "Reserve your slot easily in our modern clinic."
+    "homeTitle": "DentalCare+ | Premium Dental Clinic in Cairo – Implants, Veneers & More",
+    "homeDesc": "Cairo's trusted dental specialists for implants, veneers, orthodontics, and full smile makeovers. 3 convenient locations. Book online in seconds.",
+    "homeKeywords": "dental clinic Cairo, dental implants Egypt, veneers Cairo, orthodontics Egypt, smile makeover, best dentist Cairo",
+    "bookingTitle": "Book a Dental Appointment | DentalCare+ Dental Clinic",
+    "bookingDesc": "Reserve your dental appointment at DentalCare+ in Nasr City, Maadi, or Mokattam. Fast, easy online booking with WhatsApp confirmation."
   },
   "whyUs": {
-    "title1": "Why Choose",
-    "title2": "Our Clinic",
-    "subtitle": "We prioritize your health and time",
-    "zeroWait": "Zero Wait Time",
-    "zeroWaitDesc": "Your time is valuable. We guarantee immediate care upon arrival.",
-    "modernTools": "Modern Sterilized Tools",
-    "modernToolsDesc": "State-of-the-art medical equipment maintaining the highest safety standards.",
-    "expertConsultants": "Experienced Consultants",
-    "expertConsultantsDesc": "A dedicated team of the finest doctors in the country."
+    "title1": "Why Patients Choose",
+    "title2": "DentalCare+",
+    "subtitle": "We've built our reputation on three simple commitments: your time, your safety, and your results",
+    "zeroWait": "On-Time, Every Time",
+    "zeroWaitDesc": "We respect your schedule. Your appointment time is your appointment time — no waiting rooms, no delays.",
+    "modernTools": "Clinic-Grade Sterilisation",
+    "modernToolsDesc": "Every instrument is sterilised using international autoclave protocols. Your safety is non-negotiable.",
+    "expertConsultants": "Highly Experienced Specialists",
+    "expertConsultantsDesc": "Our team includes certified specialists with decades of combined clinical experience across all dental disciplines."
   },
   "faq": {
-    "title1": "Frequently Asked",
+    "title1": "Common",
     "title2": "Questions",
-    "subtitle": "Everything you need to know about our services",
-    "q1": "How long is the waiting time?",
-    "a1": "We operate on a zero-wait-time policy. You will be seen by the doctor safely and promptly at your scheduled time.",
-    "q2": "Do you accept insurance?",
-    "a2": "Yes, we accept a wide range of major insurance providers. Please contact our reception to confirm your specific coverage.",
-    "q3": "How can I book an appointment?",
-    "a3": "You can book an appointment easily through our website using the 'Get Medical Consultation Now' button, or call us directly.",
-    "q4": "Are your medical tools properly sterilized?",
-    "a4": "Absolutely. We adhere to the strictest global sterilization protocols using modern, state-of-the-art tools for every patient.",
-    "q5": "Where are you located in Egypt?",
-    "a5": "We have branches in top locations for your convenience, including Fifth Settlement, Sheikh Zayed, and Downtown."
+    "subtitle": "Answers to the things our patients ask most often",
+    "q1": "How long will I wait before seeing the dentist?",
+    "a1": "We operate on an appointment-only, zero-wait policy. When you arrive at your scheduled time, you'll be seen immediately — no sitting in a waiting room.",
+    "q2": "Do you accept medical insurance?",
+    "a2": "Yes, we work with a wide range of insurance providers. Please contact our reception team before your visit and we'll confirm your coverage details.",
+    "q3": "How do I book an appointment?",
+    "a3": "Simply use the 'Book Appointment' button on this page. Fill in your details and we'll confirm your slot via WhatsApp — usually within minutes.",
+    "q4": "How do you ensure instruments are sterile and safe?",
+    "a4": "Every single instrument used in our clinics is sterilised using medical-grade autoclave equipment, following strict international protocols — for every patient, every time.",
+    "q5": "Where are your clinic branches located?",
+    "a5": "We have three conveniently located branches across Cairo: Nasr City (Makram Ebeid Street), Maadi (El Lasilky Street), and Mokattam (Central Plateau)."
   }
 }

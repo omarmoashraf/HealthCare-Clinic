@@ -34,8 +34,8 @@ export default function ContactSection() {
                   <div>
                     <div className="font-semibold text-gray-900 mb-1">{t("contact.phone")}</div>
                     <div className="text-gray-600" dir="ltr">
-                      <a href="tel:+201222251379" className="hover:text-[#2563eb] transition-colors">
-                        +20 122 225 1379
+                      <a href="tel:+201270532076" className="hover:text-[#2563eb] transition-colors">
+                        +20 127 053 2076
                       </a>
                     </div>
                   </div>
@@ -78,13 +78,13 @@ export default function ContactSection() {
               </div>
               <p className="text-gray-700">{t("contact.emergencyDesc")}</p>
               <a
-                href="https://wa.me/201222251379"
+                href="https://wa.me/201270532076"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-flex items-center gap-2 text-green-600 hover:text-green-700 font-semibold"
               >
                 <MessageCircle className="size-5" />
-                +20 122 225 1379
+                +20 127 053 2076
               </a>
             </div>
           </div>

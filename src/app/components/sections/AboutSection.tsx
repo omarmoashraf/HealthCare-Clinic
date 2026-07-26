@@ -69,7 +69,7 @@ export default function AboutSection() {
                   <div className="flex items-start gap-3">
                     <ShieldCheck className="size-5 text-purple-600 mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-gray-900">E-E-A-T Certified</p>
+                      <p className="font-medium text-gray-900">{t("about.board")}</p>
                       <p className="text-sm text-gray-600">{t("about.credentials")}</p>
                     </div>
                   </div>

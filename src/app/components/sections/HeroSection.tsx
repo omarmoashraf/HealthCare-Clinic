@@ -197,7 +197,7 @@ export default function HeroSection() {
               ref={emblaRef}
             >
               <div className="flex h-[450px] sm:h-[500px] lg:h-[580px] bg-[#F0F9FF]">
-                {SLIDES.map((slide) => (
+                {SLIDES.map((slide, slideIdx) => (
                   <div
                     key={slide.id}
                     className="relative flex-[0_0_100%] min-w-0"
@@ -206,6 +206,8 @@ export default function HeroSection() {
                       src={slide.src}
                       alt={slide.alt}
                       className="w-full h-full object-cover"
+                      loading={slideIdx === 0 ? "eager" : "lazy"}
+                      fetchPriority={slideIdx === 0 ? "high" : "auto"}
                     />
                     {/* Subtle gradient overlay bottom */}
                     <div

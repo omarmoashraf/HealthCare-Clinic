@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import Navigation from "./Navigation";
+import ScrollToTop from "./ScrollToTop";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 
@@ -15,6 +16,7 @@ export default function Root() {
 
   return (
     <div className="min-h-screen bg-white">
+      <ScrollToTop />
       <Navigation />
       <Outlet />
     </div>

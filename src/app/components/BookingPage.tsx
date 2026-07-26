@@ -59,7 +59,7 @@ export default function BookingPage() {
       time,
     });
 
-    const whatsappUrl = `https://wa.me/+201270532076?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/201270532076?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
